@@ -1158,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/photo-1444703686981-a3abbc4d4fe3.avif");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1664,4 +1664,32 @@ input, select, textarea {
 .skills-container {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.javascript,
+.python,
+.css,
+.html,
+.react,
+.git,
+.flask,
+.express,
+.sequelize,
+.sqlalchemy,
+.postgres,
+.jquery,
+.heroku,
+.docker,
+.socket,
+.aws,
+.jupiter {
+	display: flex;
+	flex-direction: column;
+}
+
+.logocard {
+	display: flex;
+	flex-direction: column;
+	margin-right: 2rem;
+	align-items: center;
 }
